@@ -1,8 +1,3 @@
-Claro! Vamos criar um **README** completo para o seu projeto com base nas informações fornecidas no teste técnico, além de incluir orientações sobre o uso do MongoDB, mesmo que ainda não esteja funcionando corretamente. Abaixo está o **README** que inclui as instruções para execução, problemas conhecidos e como utilizar os endpoints.
-
-### **README.md**
-
-```markdown
 # API ViaCEP - Teste Técnico Backend
 
 ## Descrição
@@ -85,17 +80,17 @@ Caso o MongoDB ainda não esteja funcionando, os dados serão persistidos **some
    ```bash
    git clone https://github.com/Dougkid33/API-ViaCEP.git
    cd API-ViaCEP
-````
+``
 
 2. **Instale as dependências**:
 
    No diretório raiz do projeto, execute:
 
-   ```bash
+   ```
+bash
    npm install
    ```
-
-3. **Configure o arquivo `.env`**:
+   3. **Configure o arquivo `.env`**:
 
    Crie o arquivo `.env` na raiz do projeto com a seguinte configuração (substitua pela sua string de conexão do MongoDB):
 
@@ -229,3 +224,4 @@ Caso o MongoDB ainda não esteja funcionando, os dados serão persistidos **some
 Se você deseja contribuir para o projeto, faça um **fork** do repositório, crie uma nova branch com as modificações desejadas e envie um **pull request**.
 
 ---
+
